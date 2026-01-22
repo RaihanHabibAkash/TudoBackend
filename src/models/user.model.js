@@ -27,7 +27,7 @@ const userSchema = new mongoose.Schema({
     },
     subTudos: {
         type: mongoose.Schema.Types.ObjectId,
-        red: "SubTudo",
+        ref: "SubTudo",
         required: false
     }
 
